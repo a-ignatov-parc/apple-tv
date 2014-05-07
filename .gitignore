@@ -1,0 +1,6 @@
+#OS junk files
+*.DS_Store
+._*.*
+
+#npm packages
+node_modules/

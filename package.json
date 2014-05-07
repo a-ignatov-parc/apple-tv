@@ -1,0 +1,19 @@
+{
+	"name": "airplay-client",
+	"version": "0.1.0",
+	"author": {
+		"name": "Anton Ignatov",
+		"web": "https://github.com/a-ignatov-parc"
+	},
+	"url": "https://github.com/a-ignatov-parc/apple-tv",
+	"bugs": "https://github.com/a-ignatov-parc/apple-tv/issues",
+	"main": "./client.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/a-ignatov-parc/apple-tv.git"
+	},
+	"dependencies": {
+		"plist": "~0.4.3",
+		"underscore": "~1.6.0"
+	}
+}
