@@ -87,12 +87,22 @@ Api.prototype = {
 		this.stop(function() {
 			this._request('play', {
 				'Content-Location': url
-			}, callback);
+			}, function() {
+				this.emit('playback-started');
+
+				if (typeof(callback) === 'function') {
+					callback.apply(null, arguments);
+				}
+			}.bind(this));
 
 			this._timer = setInterval(function() {
 				this.playbackInfo(function(info) {
 					if (info.readyToPlay && info.rate !== 0) {
 						this.emit('playback', info);
+					}
+
+					if ((info.duration - info.position) < 2) {
+						this.emit('playback-ended');
 					}
 				}.bind(this));
 			}.bind(this), 1000);
