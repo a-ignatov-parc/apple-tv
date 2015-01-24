@@ -22,6 +22,7 @@ function parseResponse(data, callback) {
 var Api = function(callback, options) {
 		options = _.extend({}, options, {
 			host: 'apple-tv.local',
+			// host: '10.0.1.5', // If dns name won't be able to resolve then use ip address
 			port: 7000
 		});
 
@@ -37,6 +38,10 @@ var Api = function(callback, options) {
 
 		this._socket.on('connect', function() {
 			this.serverInfo(callback);
+		}.bind(this));
+
+		this._socket.on('error', function() {
+			console.log(arguments);
 		}.bind(this));
 	};
 

@@ -28,7 +28,10 @@ var playingQueue = new Queue(),
 	});
 
 var playingList = [
-	'https://281405721f3e2032-cdn.turbik.tv/0/SeoL4X9CuCx6PWp+DNfWhQ+xrJV-PACbYe2wICy39mbi9WU7N8D0q5WZPf5ykvgy5TShzM1wNSblZBeAmOhyKIyEFpV7wiJj4lzzercFKz6NGj6twv-1xPKOHx0hyBFPzIF0KsmxYuLWKaUNiI29Vme8H95hGiqMRTq6R6NW+LKf5JWEucJ2ZeBJ96DS-mfk6gaBUIBXU8W5kh8+dqS-YlI-BKbJW66XUK4JKoGWOhlT2lIzWR-AkLk3nC-a3Q3WWXDC1NjIE02sNbBfR7LVNErze34Q0JuoyHr3bqPk',
-	'https://4328d6579b4dbae8-cdn.turbik.tv/0/-Ud7EH4lJ1atNAGEi-rF5ia6DboAu3ZLM29mETGC1O2XiHXR6nDsod6CdQNJGIQfXo+Ur6y4n8OOqqtGGV2wrJCruE6xOzm2KirXwf+KGlvUDcM0EFZrRiylL2UHNM0n2kkYCAcGw1f+iijESF1-SfKLJsKoVth2GIO18YUKZRq0HmyLJ0X+rA10zpzw3BIyHrh8mqjYsvUOfyzEL+tw-Z-FQ5ROZBuIXNHWLI5NFvixjXgW0GbtLbupxZeb5OtQzTv9FKg8HH62pPZFk5+aAKAw00VqrRmWYG7Fcmtr',
-	'https://5cd9419a4550d395-cdn.turbik.tv/0/lpc1tIXk4BtgIzWsKCPN+HS4qBOpIUIJTvxwtETm5uEipKZH12RjEz9Fyq8D3Kl5HpzVSieRBkf28xtGDniOVulred2pdiiPF7kCU-nmkj4bcFebGBbIXZIvBqYwMbhmh9krmcMSs0ptM2ENqJU++eLLpJyKTocTMXmxXOpTPc15YRy-dwLjlAxPBcwuITYifuZV88i1b05QFqVxLwX0Xw34FgqMmCrjhpeXuvCuBDEDGMWAeiIhpEZxtTx7SNrMVwHk+vJ7iPz6Of+lFu0qIImgnwbvkkInjhvI3B3l'
+	'http://185.49.70.143/watch/xWik82YPEuvzGL3Vx4FjhA==,1422184880/6pkM5i4qHFZ8Q.mp4',
+	'http://185.49.70.144/watch/2YtvEJQQFaJx3W_4nKaRkA==,1422184913/3i5whhE514INN.mp4',
+	'http://185.49.70.142/watch/cb-migijf03_8eq81dUHwg==,1422173386/TyMSbKnKmgHbK.mp4',
+	'http://185.49.70.142/watch/WqmsNhjUuvqcK7HbaBbU-g==,1422184936/Xa80SWwXESI7B.mp4',
+	'http://185.49.70.142/watch/GQFiq4rOJcU8LIfWqw5nIQ==,1422184949/XhhEe5IC41dlB.mp4',
+	'http://185.49.70.144/watch/WE2BiCUZcWcUtMOjJlPvIQ==,1422184962/kmdHOitWNHb9i.mp4',
 ];
