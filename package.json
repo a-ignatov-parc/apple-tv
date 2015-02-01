@@ -7,13 +7,15 @@
 	},
 	"url": "https://github.com/a-ignatov-parc/apple-tv",
 	"bugs": "https://github.com/a-ignatov-parc/apple-tv/issues",
-	"main": "./client.js",
+	"main": "lib/client.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/a-ignatov-parc/apple-tv.git"
 	},
 	"dependencies": {
 		"plist": "~0.4.3",
+		"jsdom": "~3.1.0",
+		"jquery": "~2.1.0",
 		"underscore": "~1.6.0"
 	}
 }
