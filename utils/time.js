@@ -6,8 +6,8 @@ module.exports = function(seconds) {
 	seconds = Math.floor(seconds);
 
 	var sec = Math.floor(seconds) % 60,
-		min = Math.floor(seconds / 60),
-		hour = Math.floor(min / 60),
+		min = Math.floor(seconds / 60) % 60,
+		hour = Math.floor(seconds / 60 / 60) % 24,
 		result = [];
 
 	if (hour) {
