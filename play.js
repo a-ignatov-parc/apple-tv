@@ -33,6 +33,8 @@ client.on('playback-started', function() {
 });
 
 client.on('playback', function(info) {
+	process.stdout.clearLine();
+	process.stdout.cursorTo(0);
 	console.log('Playback: ' + time(info.position) + '/' + time(info.duration));
 });
 
