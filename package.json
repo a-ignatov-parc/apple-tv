@@ -1,14 +1,17 @@
 {
   "name": "apple-tv",
   "version": "0.1.0",
-  "description": "Apple TV api client",
+  "main": "lib/client.js",
+  "description": "Simple assets server with support for middleware fabric",
   "repository": {
     "type": "git",
     "url": "https://github.com/a-ignatov-parc/apple-tv.git"
   },
   "keywords": [
-    "apple-tv",
-    "airplay"
+    "node",
+    "connect",
+    "assets",
+    "middleware"
   ],
   "author": "Anton Ignatov",
   "license": "MIT",
