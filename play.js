@@ -1,10 +1,6 @@
-global.app_require = function(name) {
-	return require(__dirname + '/' + name);
-}
-
-var time = app_require('utils/time');
-var Queue = app_require('utils/queue');
-var client = app_require('lib/client');
+var time = require('./utils/time');
+var Queue = require('./utils/queue');
+var client = require('./lib/client');
 
 var playingQueue = new Queue();
 

@@ -1,21 +1,25 @@
 {
-	"name": "apple-tv",
-	"version": "0.1.0",
-	"author": {
-		"name": "Anton Ignatov",
-		"web": "https://github.com/a-ignatov-parc"
-	},
-	"url": "https://github.com/a-ignatov-parc/apple-tv",
-	"bugs": "https://github.com/a-ignatov-parc/apple-tv/issues",
-	"main": "lib/client.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/a-ignatov-parc/apple-tv.git"
-	},
-	"dependencies": {
-		"plist": "~0.4.3",
-		"jsdom": "~3.1.0",
-		"jquery": "~2.1.0",
-		"underscore": "~1.6.0"
-	}
+  "name": "apple-tv",
+  "version": "0.1.0",
+  "description": "Apple TV api client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-ignatov-parc/apple-tv.git"
+  },
+  "keywords": [
+    "apple-tv",
+    "airplay"
+  ],
+  "author": "Anton Ignatov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-ignatov-parc/apple-tv/issues"
+  },
+  "homepage": "https://github.com/a-ignatov-parc/apple-tv",
+  "dependencies": {
+    "plist": "~0.4.3",
+    "jsdom": "~3.1.0",
+    "jquery": "~2.1.0",
+    "underscore": "~1.6.0"
+  }
 }
