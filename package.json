@@ -1,6 +1,6 @@
 {
   "name": "apple-tv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/client.js",
   "description": "Simple assets server with support for middleware fabric",
   "repository": {
