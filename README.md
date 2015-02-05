@@ -1,4 +1,7 @@
-apple-tv
-========
+## Description
 
-Apple TV API Client
+Apple TV api client
+
+## Documentation
+
+[Unofficial AirPlay Protocol Specification](http://nto.github.io/AirPlay.html)
